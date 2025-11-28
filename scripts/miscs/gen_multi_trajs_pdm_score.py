@@ -1,3 +1,22 @@
+import os
+import sys
+from pathlib import Path
+
+# Add project root to Python path before any navsim imports
+PROJECT_ROOT = Path(__file__).parent.parent.parent.absolute()
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+# Set environment variables if not already set (needed for Hydra config)
+if "NAVSIM_EXP_ROOT" not in os.environ:
+    os.environ["NAVSIM_EXP_ROOT"] = str(PROJECT_ROOT / "exp")
+if "OPENSCENE_DATA_ROOT" not in os.environ:
+    os.environ["OPENSCENE_DATA_ROOT"] = "/home/harsh/dataset"
+if "NUPLAN_MAPS_ROOT" not in os.environ:
+    os.environ["NUPLAN_MAPS_ROOT"] = "/home/harsh/navsim/download/maps"
+if "NUPLAN_MAP_VERSION" not in os.environ:
+    os.environ["NUPLAN_MAP_VERSION"] = "nuplan-maps-v1.0"
+
 import pandas as pd
 from tqdm import tqdm
 import traceback
@@ -7,14 +26,12 @@ import hydra
 from hydra.utils import instantiate
 from omegaconf import DictConfig
 
-from pathlib import Path
 from typing import Any, Dict, List, Union, Tuple
 from dataclasses import asdict
 from datetime import datetime
 import logging
 import lzma
 import pickle
-import os
 import uuid
 
 from nuplan.planning.script.builders.logging_builder import build_logger
@@ -45,12 +62,18 @@ if compute_state_only:
     print("Computing state only")
 
 
-CONFIG_PATH = "/Path_To_SeerDrive/navsim/planning/script/config/pdm_scoring"
+# Get the script directory and construct path relative to project root
+SCRIPT_DIR = Path(__file__).parent.absolute()
+PROJECT_ROOT = SCRIPT_DIR.parent.parent  # Go up from scripts/miscs/ to SeerDrive/
+CONFIG_PATH = str(PROJECT_ROOT / "navsim/planning/script/config/pdm_scoring")
 CONFIG_NAME = "default_run_pdm_score"
 
 
-@hydra.main(config_path=CONFIG_PATH, config_name=CONFIG_NAME)
+@hydra.main(config_path=CONFIG_PATH, config_name=CONFIG_NAME, version_base=None)
 def main(cfg: DictConfig) -> None:
+    # Set default experiment_name if not provided
+    if not hasattr(cfg, 'experiment_name') or cfg.experiment_name is None or cfg.experiment_name == '???':
+        cfg.experiment_name = 'gen_multi_trajs_pdm_score'
     build_logger(cfg)
     worker = build_worker(cfg)
 
@@ -111,7 +134,7 @@ def format_and_save_ego_states(score_rows, num_clusters, output_dir):
         score_dict[key] = value
 
     # Save formatted score_rows using numpy
-    save_path = f'/Path_To_SeerDrive/ckpts/simulated_ego_states_{num_clusters}_trainval.npy'
+    save_path = str(PROJECT_ROOT / f'ckpts/simulated_ego_states_{num_clusters}_trainval.npy')
     np.save(save_path, score_dict, allow_pickle=True)
 
 
@@ -135,7 +158,7 @@ def format_and_save_scores(score_rows, num_clusters, output_dir):
         score_dict[key] = value
 
     # Save formatted score_rows using numpy
-    save_path = f'/Path_To_SeerDrive/ckpts/extra_data/planning_vb/formatted_pdm_score_{num_clusters}.npy'
+    save_path = str(PROJECT_ROOT / f'ckpts/extra_data/planning_vb/formatted_pdm_score_{num_clusters}.npy')
     np.save(save_path, score_dict, allow_pickle=True)
 
     print(f'Saved formatted scores to {save_path}')
@@ -238,7 +261,7 @@ def load_predefined_trajectories() -> List[Any]:
     Assumes that the trajectories are stored in a serialized format (e.g., pickle).
     """
 
-    path = f'/Path_To_SeerDrive/ckpts/extra_data/planning_vb/trajectory_anchors_{num_clusters}.npy'
+    path = str(PROJECT_ROOT / f'ckpts/extra_data/planning_vb/trajectory_anchors_{num_clusters}.npy')
     with open(path, "rb") as f:
         trajectories = np.load(f)
     return trajectories

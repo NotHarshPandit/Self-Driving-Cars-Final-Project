@@ -1,0 +1,531 @@
+Starting worker in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Processing scenario 1 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.12.02.06_veh-35_00233_00609/CAM_F0/d431ee6f0d635960.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.12.02.06_veh-35_00233_00609/CAM_L0/2ae960dd86455b6b.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.12.02.06_veh-35_00233_00609/CAM_R0/7dde3bb1237b50f0.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.12.02.06_veh-35_00233_00609/MergedPointCloud/c849fb5493be5a70.pcd. Using empty LiDAR.
+Processing scenario 2 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_F0/f3bc5f7a11c1522a.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_L0/2515abcb711158c6.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_R0/11638740c4485363.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/MergedPointCloud/b523d101fb0958c3.pcd. Using empty LiDAR.
+Processing scenario 3 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_00878_01104/CAM_F0/029954bd9b4f531a.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_00878_01104/CAM_L0/6890d2634d8a5f41.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_00878_01104/CAM_R0/fc7d662328e35784.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_00878_01104/MergedPointCloud/c3c375ac03435ee2.pcd. Using empty LiDAR.
+Processing scenario 4 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_F0/d31987d2b37e5c66.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_L0/aae78e1f01db54ca.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_R0/42347fb09f605b9d.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/MergedPointCloud/4a4c046eff125fca.pcd. Using empty LiDAR.
+Processing scenario 5 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/d7762858349a57f4.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/21c8ae5c2e375b50.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/f9f7a80ebee55a82.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/9587d6ea0a8e518f.pcd. Using empty LiDAR.
+Processing scenario 6 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/25d83ab467d3528f.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/6dca86d51ef65058.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/9ec4cf0cc9665d5a.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/e5e21bbf8d665374.pcd. Using empty LiDAR.
+Processing scenario 7 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_01116_01336/CAM_F0/72f942a694ba50b0.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_01116_01336/CAM_L0/bdd24203ecd65ef5.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_01116_01336/CAM_R0/1824825e4a71571d.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_01116_01336/MergedPointCloud/faf8f696fd8a5298.pcd. Using empty LiDAR.
+Processing scenario 8 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_F0/edebf6a7866651a7.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_L0/40edd1f2ce1b5b7d.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_R0/40dda569e1e25918.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/MergedPointCloud/e982719caf425a10.pcd. Using empty LiDAR.
+Processing scenario 9 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/47684b624da851d3.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/8daf36ccff3d56c0.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/754a12c807745ac5.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/09b2f0291de85466.pcd. Using empty LiDAR.
+Processing scenario 10 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_00878_01104/CAM_F0/6e55152145125bd6.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_00878_01104/CAM_L0/6c2d96bc43f5531d.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_00878_01104/CAM_R0/2a37d080f1a55f4c.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_00878_01104/MergedPointCloud/8cfce2bdf24a5260.pcd. Using empty LiDAR.
+Processing scenario 11 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.05.25.14.24.08_veh-25_03764_04034/CAM_F0/13bfe03cf4c8535b.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.05.25.14.24.08_veh-25_03764_04034/CAM_L0/603dac60f7e851d5.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.05.25.14.24.08_veh-25_03764_04034/CAM_R0/bda40c662568570c.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.05.25.14.24.08_veh-25_03764_04034/MergedPointCloud/1661065c080c51d8.pcd. Using empty LiDAR.
+Processing scenario 12 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.12.02.06_veh-35_00233_00609/CAM_F0/ff2bc569445e5857.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.12.02.06_veh-35_00233_00609/CAM_L0/f197e8aa32cf5b84.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.12.02.06_veh-35_00233_00609/CAM_R0/437a38d959405a96.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.12.02.06_veh-35_00233_00609/MergedPointCloud/d49c7581099d56be.pcd. Using empty LiDAR.
+Processing scenario 13 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_F0/fa8bdf7385505910.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_L0/ac377684fc0c5d23.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_R0/f08be60fdfa45c71.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/MergedPointCloud/a117c55be29c5412.pcd. Using empty LiDAR.
+Processing scenario 14 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_F0/4ed0859223a15cde.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_L0/44583d81b30255fc.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_R0/ff711a9bdb95528b.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/MergedPointCloud/2bf7a51839cb59eb.pcd. Using empty LiDAR.
+Processing scenario 15 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_F0/1c3cf79ef9945f4a.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_L0/e89d48e50c415add.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_R0/d4600c0ff6855ffa.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/MergedPointCloud/da0aac1f6c225eca.pcd. Using empty LiDAR.
+Processing scenario 16 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01590_01725/CAM_F0/4c0c42c3c0705900.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01590_01725/CAM_L0/34e0ad18b2615b3c.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01590_01725/CAM_R0/21642336aaef5999.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01590_01725/MergedPointCloud/66368e570f415f55.pcd. Using empty LiDAR.
+Processing scenario 17 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/5230506fc8f65a30.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/d5839652ec905fc1.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/cd96f5f9fe8551d5.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/70d9aa5a289157c2.pcd. Using empty LiDAR.
+Processing scenario 18 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/5ed57ba6cea9559f.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/3bc5c498951d5d5e.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/704d3f47283b5332.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/371a6b4bc47d5d87.pcd. Using empty LiDAR.
+Processing scenario 19 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/b9586994e5e65d8f.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/7542b38eba955d10.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/db4ec53cce155e04.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/a5725e330a565f84.pcd. Using empty LiDAR.
+Processing scenario 20 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00077_00153/CAM_F0/7f4ead8672de5623.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00077_00153/CAM_L0/062c7ce471de58bf.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00077_00153/CAM_R0/0b761173f8835533.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00077_00153/MergedPointCloud/b74b5977823b527a.pcd. Using empty LiDAR.
+Processing scenario 21 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_F0/d1e26d73bbeb55e2.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_L0/e8f0ff0e11f75757.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_R0/27da7c79066c5f43.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/MergedPointCloud/e37f3f28d9bb5445.pcd. Using empty LiDAR.
+Processing scenario 22 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/8b0b48446f2c50c4.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/16e38cc6afd05d67.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/d1219537960a582f.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/4909b88b347c5764.pcd. Using empty LiDAR.
+Processing scenario 23 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_F0/7aa078a2a30d58b9.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_L0/99607018b02f5e73.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_R0/3b6946fa73115471.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/MergedPointCloud/d8052747bb57544b.pcd. Using empty LiDAR.
+Processing scenario 24 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_F0/bfa08107f7bd54d1.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_L0/7c5dd69169be5ac5.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_R0/6b06ae3cdc695b7f.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/MergedPointCloud/3dac4631b32d5baa.pcd. Using empty LiDAR.
+Processing scenario 25 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_F0/905a1434ef8f599e.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_L0/6b5fd983aba85ab4.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_R0/66c08c3d96275f5a.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/MergedPointCloud/1d2ce89fe79f55bd.pcd. Using empty LiDAR.
+Processing scenario 26 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_F0/6fcf6b7725be5ae2.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_L0/af90e1db212251bc.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_R0/831031664d605061.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/MergedPointCloud/15822499ddf9515d.pcd. Using empty LiDAR.
+Processing scenario 27 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00422_00728/CAM_F0/479e0985b70c5375.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00422_00728/CAM_L0/c5263a63b62a5e24.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00422_00728/CAM_R0/d4615f0636a850fd.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00422_00728/MergedPointCloud/a8f83a28e925555d.pcd. Using empty LiDAR.
+Processing scenario 28 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_F0/0ec5ce53e8835e1d.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_L0/28a155f02e5a5991.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_R0/2d29792fd6c753af.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/MergedPointCloud/43861b94f4d959eb.pcd. Using empty LiDAR.
+Processing scenario 29 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/4561ea4a4ed45479.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/51f1f0f886af502f.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/ed0eb4c0d93c5580.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/cc9c17cee08d59ca.pcd. Using empty LiDAR.
+Processing scenario 30 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/ea2df79aa1975ac8.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/b77f8b08f04a563a.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/7a55326fb46751e7.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/bf2eac0b47c55db7.pcd. Using empty LiDAR.
+Processing scenario 31 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01430_01579/CAM_F0/a1e5fab79f1555cf.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01430_01579/CAM_L0/2a3fba45080f5f35.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01430_01579/CAM_R0/a6b517f41d025c6d.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01430_01579/MergedPointCloud/c1e612a123d059d7.pcd. Using empty LiDAR.
+Processing scenario 32 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01590_01725/CAM_F0/6fe1c26fb4d05971.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01590_01725/CAM_L0/8c2580f8edf759e2.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01590_01725/CAM_R0/a826ce892b515e99.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01590_01725/MergedPointCloud/47f9e40a21f7510a.pcd. Using empty LiDAR.
+Processing scenario 33 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_01202_01296/CAM_F0/1b99d91e9e3a537c.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_01202_01296/CAM_L0/25da9424e9fa53a4.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_01202_01296/CAM_R0/e449f6b5846858f5.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_01202_01296/MergedPointCloud/71d723610abd5f16.pcd. Using empty LiDAR.
+Processing scenario 34 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_00878_01104/CAM_F0/a1b0cdc93dde5f8a.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_00878_01104/CAM_L0/c9ee685ca47354b4.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_00878_01104/CAM_R0/af4ac8a10bd9568b.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_00878_01104/MergedPointCloud/567469e556cf5e6b.pcd. Using empty LiDAR.
+Processing scenario 35 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/b02f3d24b3ca5c72.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/6f606850508d54b2.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/15647df5c0205353.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/8b413245a4055519.pcd. Using empty LiDAR.
+Processing scenario 36 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/8be35a7ee53a51bd.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/ba82dbc77e3a56d1.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/137fb58b7fec5845.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/9a4e8cacd6095527.pcd. Using empty LiDAR.
+Processing scenario 37 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_00878_01104/CAM_F0/8c46ffef14e3545e.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_00878_01104/CAM_L0/78a12b48a9a75f13.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_00878_01104/CAM_R0/ec24cb30e26b5b39.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_00878_01104/MergedPointCloud/315aedf84f9f59c3.pcd. Using empty LiDAR.
+Processing scenario 38 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_F0/6ca0ea7d1f725c0e.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_L0/0a59c4f7641357ef.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_R0/1a4f9241783e591e.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/MergedPointCloud/0bb779c3344d5b1d.pcd. Using empty LiDAR.
+Processing scenario 39 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/f6ae1a6f108751b8.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/3b86f1e4e3755f4d.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/fa3b55675da35b1e.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/b7d4918c77945775.pcd. Using empty LiDAR.
+Processing scenario 40 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_F0/cf3bf77ae07e5053.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_L0/6bdd94f1222c5f35.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_R0/7fd61262631b5dfd.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/MergedPointCloud/165838dcee0152fe.pcd. Using empty LiDAR.
+Processing scenario 41 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_F0/128a623252f65b0b.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_L0/e2daed0a890056b2.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_R0/051aba779b915a90.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/MergedPointCloud/b2c9c066dc43545b.pcd. Using empty LiDAR.
+Processing scenario 42 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/193628a1a1725019.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/555a58864fd650d8.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/340e22dcc4145963.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/a04f86a92daf50ba.pcd. Using empty LiDAR.
+Processing scenario 43 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_F0/9f4349d3145d5f36.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_L0/4fd76a4ac7875a21.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_R0/0792f5f3f3c0569d.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/MergedPointCloud/dd9646cfa6935fae.pcd. Using empty LiDAR.
+Processing scenario 44 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_F0/5164f97aa801537b.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_L0/90c378fc5fc75bf5.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_R0/bd9deb4662e85c2d.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/MergedPointCloud/594e39f9024a5835.pcd. Using empty LiDAR.
+Processing scenario 45 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_01116_01336/CAM_F0/47c02da3747b55a8.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_01116_01336/CAM_L0/c13b40f3cb235d87.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_01116_01336/CAM_R0/890a50d62ddf5a1c.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.13.45.25_veh-40_01116_01336/MergedPointCloud/3fea25d764c355dc.pcd. Using empty LiDAR.
+Processing scenario 46 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_F0/89652ec7a9625545.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_L0/98351b4e3bb45d79.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_R0/e653fb9f952c5389.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/MergedPointCloud/e450c08eafcf5b91.pcd. Using empty LiDAR.
+Processing scenario 47 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_F0/714debe8db425304.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_L0/daba15c11a635f5c.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_R0/ea423b5cd28757a6.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/MergedPointCloud/a9af1e73c9575428.pcd. Using empty LiDAR.
+Processing scenario 48 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_F0/539bab85fdd058bf.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_L0/a4a85ab6fa2f5394.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_R0/3c34182cc64a5ff4.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/MergedPointCloud/9fcf3a5f4d495b70.pcd. Using empty LiDAR.
+Processing scenario 49 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01430_01579/CAM_F0/3437032ae0cc54de.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01430_01579/CAM_L0/b6b20455155953e8.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01430_01579/CAM_R0/942444dac2615271.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01430_01579/MergedPointCloud/1f913e9b33f155c6.pcd. Using empty LiDAR.
+Processing scenario 50 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_F0/1df0890a42fb5514.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_L0/f8c9aac7467256bb.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_R0/db259888e8655a36.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/MergedPointCloud/ba8b30ba37d05ed6.pcd. Using empty LiDAR.
+Processing scenario 51 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/d904e0fd8b875160.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/9f03af144ec15ed9.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/918255c60cd15689.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/17aab91aa7585eb6.pcd. Using empty LiDAR.
+Processing scenario 52 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_F0/863a65d093095298.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_L0/b77199f924065e25.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_R0/5d69961fcb7e59b2.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/MergedPointCloud/7f19b2fd14435b73.pcd. Using empty LiDAR.
+Processing scenario 53 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01430_01579/CAM_F0/cafbec2367c953fa.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01430_01579/CAM_L0/299b8c73015b5522.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01430_01579/CAM_R0/d12e0e52af455b32.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01430_01579/MergedPointCloud/fddb0bdd1d7f53e0.pcd. Using empty LiDAR.
+Processing scenario 54 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_F0/ea24c67b41755a21.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_L0/2af9204bffe859fd.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_R0/8972d4dcb5b45804.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/MergedPointCloud/0372bb63e704555a.pcd. Using empty LiDAR.
+Processing scenario 55 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_F0/d3440e3e7cb758ad.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_L0/f524b21a571552ec.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_R0/a56a48c9a4cd57f0.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/MergedPointCloud/67628d15c5b45860.pcd. Using empty LiDAR.
+Processing scenario 56 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_F0/9e3e9fedc9955ab4.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_L0/941d5b8d7efd5cdb.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_R0/7874ef9c30d05694.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/MergedPointCloud/20eb3d1d711554a3.pcd. Using empty LiDAR.
+Processing scenario 57 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00422_00728/CAM_F0/f10ce882239b56fb.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00422_00728/CAM_L0/a04d74303a3a5314.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00422_00728/CAM_R0/cbcea7d650155523.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00422_00728/MergedPointCloud/df11795878cb5419.pcd. Using empty LiDAR.
+Processing scenario 58 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00422_00728/CAM_F0/891d4a6b00775b2c.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00422_00728/CAM_L0/00fb25d8bfe45600.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00422_00728/CAM_R0/6a3555a3d5cb5cee.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00422_00728/MergedPointCloud/d639c104b63e568d.pcd. Using empty LiDAR.
+Processing scenario 59 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_F0/b17c2e65af82596c.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_L0/e6ea73c8e3705f08.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_R0/bcc008cab62355a2.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/MergedPointCloud/ead2f3a4f1ad58ac.pcd. Using empty LiDAR.
+Processing scenario 60 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_F0/ec38111978b45509.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_L0/666ef4142409586e.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_R0/f8dcf273f6b455cd.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/MergedPointCloud/ebad44bb4ab65707.pcd. Using empty LiDAR.
+Processing scenario 61 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_F0/e98f5f50f7d95702.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_L0/bae1675b659b5282.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_R0/f825f9dfce3c5774.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/MergedPointCloud/95809cb5fc4a549f.pcd. Using empty LiDAR.
+Processing scenario 62 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_F0/3e7931d7bf085430.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_L0/a1d037ddf6f1544d.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_R0/45a4571561455703.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/MergedPointCloud/6fdea0636809523e.pcd. Using empty LiDAR.
+Processing scenario 63 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_F0/3ebec8ef93dd560e.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_L0/bc09cf1b22785e96.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_R0/44d449b697985c02.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/MergedPointCloud/f1041299a1a059f5.pcd. Using empty LiDAR.
+Processing scenario 64 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/f17cbbb8ef695b8a.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/63a85ce43dff53bf.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/bcfa0bdb23bd511b.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/02af0d9081855c54.pcd. Using empty LiDAR.
+Processing scenario 65 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_F0/0bb59bf66691561b.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_L0/df6c5feca7985d32.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_R0/6dd426a1d17d5d6e.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/MergedPointCloud/9095dbedac905e58.pcd. Using empty LiDAR.
+Processing scenario 66 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00077_00153/CAM_F0/13b0715e6da657a3.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00077_00153/CAM_L0/0a01c9a43296591e.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00077_00153/CAM_R0/6cc415a9fc3a51e7.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00077_00153/MergedPointCloud/a25c5a2632f952d7.pcd. Using empty LiDAR.
+Processing scenario 67 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/56301919a4dc52ab.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/c6e6e57b1e3c5cc0.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/e05e1bc417445c93.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/1671f2a335fb5968.pcd. Using empty LiDAR.
+Processing scenario 68 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/07a2df6420b158b0.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/2f8971c352055f4e.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/306e20d117185bd0.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/aaa52295ba6e5daf.pcd. Using empty LiDAR.
+Processing scenario 69 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/43f038353e2453a8.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/16b7818d1e0f541a.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/b9b44544343e5820.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/50613cf56a8d5a38.pcd. Using empty LiDAR.
+Processing scenario 70 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.05.25.14.24.08_veh-25_03764_04034/CAM_F0/79eecc5afbb45b6c.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.05.25.14.24.08_veh-25_03764_04034/CAM_L0/0278ce6fce8f50ae.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.05.25.14.24.08_veh-25_03764_04034/CAM_R0/0932be567d2054c0.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.05.25.14.24.08_veh-25_03764_04034/MergedPointCloud/d79128ba24155262.pcd. Using empty LiDAR.
+Processing scenario 71 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01430_01579/CAM_F0/7e70497adc435eef.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01430_01579/CAM_L0/72fe6768fc955603.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01430_01579/CAM_R0/b7f8199f61335d1b.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01430_01579/MergedPointCloud/f841083805af5242.pcd. Using empty LiDAR.
+Processing scenario 72 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/d9f3402cbcf5510e.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/c903ec7c8c5a5792.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/2a87e9730f0053bb.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/307b5c7a59cd57b2.pcd. Using empty LiDAR.
+Processing scenario 73 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_F0/1f42a20fbbca5826.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_L0/ee335e9d5a26583e.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_R0/c05ebae695545bd2.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/MergedPointCloud/5496f69033515dd4.pcd. Using empty LiDAR.
+Processing scenario 74 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_F0/f1ff9d8c518f5b3b.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_L0/fb4d1f83c2515c07.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/CAM_R0/8f7ddd7ca8ab5fc8.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00528_00992/MergedPointCloud/9fe2a67d11ff55f2.pcd. Using empty LiDAR.
+Processing scenario 75 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/ab59908a19955ee1.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/2b38fd6db5f95772.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/c0af02bc46a75b3a.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/5c9f3b6bfc615ad4.pcd. Using empty LiDAR.
+Processing scenario 76 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_01202_01296/CAM_F0/2068aaebbb5b5810.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_01202_01296/CAM_L0/1dfc7f88b7f45aea.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_01202_01296/CAM_R0/82e817977556529f.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_01202_01296/MergedPointCloud/19cd103b5ae1538e.pcd. Using empty LiDAR.
+Processing scenario 77 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_F0/eebe501bf7365fef.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_L0/8b27fb92456b5056.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_R0/1025de34c4735ce0.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/MergedPointCloud/90e143b64aa15442.pcd. Using empty LiDAR.
+Processing scenario 78 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_F0/ef266c6d20355336.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_L0/3ad4b89540c45ef7.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_R0/075618b738c15c05.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/MergedPointCloud/5b5be980b0815e76.pcd. Using empty LiDAR.
+Processing scenario 79 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_F0/59928028f35f551e.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_L0/3001a26919be5aca.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_R0/1d3d6aa41c755e0a.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/MergedPointCloud/e06452718ec757c6.pcd. Using empty LiDAR.
+Processing scenario 80 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_F0/d41eda8e0e775a7c.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_L0/269b623746a95967.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_R0/108084b092cc532f.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/MergedPointCloud/23502259fe7450ea.pcd. Using empty LiDAR.
+Processing scenario 81 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_F0/fb5986b565db5741.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_L0/fd8516dc22b15b5c.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_R0/d0aac69b56145be3.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/MergedPointCloud/8a67627289225991.pcd. Using empty LiDAR.
+Processing scenario 82 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/1dacc9b407195c00.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/009f7caed5435636.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/d791fbc6f2b35ee4.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/07317a5c43a05eef.pcd. Using empty LiDAR.
+Processing scenario 83 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00077_00153/CAM_F0/c5b724a16adc5e52.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00077_00153/CAM_L0/48ce0739a68451ef.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00077_00153/CAM_R0/5acd46e621d45f44.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00077_00153/MergedPointCloud/1611f4d5c0395de4.pcd. Using empty LiDAR.
+Processing scenario 84 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_F0/2b6df8d4e1735014.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_L0/1218f94df53f5d10.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_R0/fb198d4c284b5224.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/MergedPointCloud/6aeafad06d0055ba.pcd. Using empty LiDAR.
+Processing scenario 85 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_F0/72515a834a375538.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_L0/ee15106daa5e54a5.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_R0/ec7433b7b1465e40.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/MergedPointCloud/6afb5356f35b547c.pcd. Using empty LiDAR.
+Processing scenario 86 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_F0/f4fcf3e5e0a35979.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_L0/edeef57100975a39.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_R0/7348191766ee5e6d.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/MergedPointCloud/a4004f6529cf511e.pcd. Using empty LiDAR.
+Processing scenario 87 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_F0/0b5e5ff9f65c5798.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_L0/57fd567f18d05068.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_R0/96f3e825d1f45b83.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/MergedPointCloud/49f8fc6be75f56fc.pcd. Using empty LiDAR.
+Processing scenario 88 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00422_00728/CAM_F0/86a906a2ec8b595d.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00422_00728/CAM_L0/4e4db058a2255fa8.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00422_00728/CAM_R0/d002d4d790105f74.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00422_00728/MergedPointCloud/b1e0acd51fbf5895.pcd. Using empty LiDAR.
+Processing scenario 89 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_F0/5a4e1d5065495eb4.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_L0/d7035203875a5776.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_R0/f19d97b091035c07.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/MergedPointCloud/465d43bf893d5e66.pcd. Using empty LiDAR.
+Processing scenario 90 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/7fc8ee0ed8885303.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/314d3a77630f5f9c.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/f25461b9c8645892.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/1e5912e7fc4f5451.pcd. Using empty LiDAR.
+Processing scenario 91 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_F0/b1d76ae8ebf551a4.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_L0/284104fe3a045932.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/CAM_R0/d6a8473a9ef45eb2.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00181_00574/MergedPointCloud/03ed102b769458cd.pcd. Using empty LiDAR.
+Processing scenario 92 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/2ddc62eaf3315806.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/3e51035d250d5cee.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/d52d62ff75a95aed.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/d3999ba1a6b9527a.pcd. Using empty LiDAR.
+Processing scenario 93 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/3f876c785a82572f.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/c93b02d4e9345c80.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/91184aea79845223.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/8847def0336a54a1.pcd. Using empty LiDAR.
+Processing scenario 94 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/3fc12110ffcf5dd7.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/d0139dec4fdc50db.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/3d2858def30151b2.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/d4f46232d69d5d16.pcd. Using empty LiDAR.
+Processing scenario 95 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_F0/d6fb80451cfa5a5c.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_L0/12cf799600f65aa6.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/CAM_R0/bbee11f19d4f559d.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.17.40.09_veh-45_02539_02745/MergedPointCloud/d113b39be843564f.pcd. Using empty LiDAR.
+Processing scenario 96 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01590_01725/CAM_F0/99d9f55a086a519e.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01590_01725/CAM_L0/705dfa4c81775bda.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01590_01725/CAM_R0/8045940e7d7c5adf.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01590_01725/MergedPointCloud/bdae4b23337b5834.pcd. Using empty LiDAR.
+Processing scenario 97 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_F0/645426547ca754f8.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_L0/44c9564e40d85835.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_R0/f9cecc712d5b59ec.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/MergedPointCloud/341d69eed08a520b.pcd. Using empty LiDAR.
+Processing scenario 98 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00077_00153/CAM_F0/bc562086b5f5599a.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00077_00153/CAM_L0/856bcce7422c5de6.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00077_00153/CAM_R0/65465877a5af538b.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00077_00153/MergedPointCloud/1bc034e245e85197.pcd. Using empty LiDAR.
+Processing scenario 99 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/9c29dcb1a27157c1.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/13b3cb9b1d99596b.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/a762ef2a200c5b6a.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/6352864cf9f95bb8.pcd. Using empty LiDAR.
+Processing scenario 100 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/f33ea3e905d0593a.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/4c1e2b7ec2f85d7f.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/c84b15aee0f55ae7.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/837ce609a8ec58e9.pcd. Using empty LiDAR.
+Processing scenario 101 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_F0/921ec47678d9567d.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_L0/860199d5945d5fef.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/CAM_R0/9b597a5095bf55ac.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_03198_03360/MergedPointCloud/aedd14aa2f3452c3.pcd. Using empty LiDAR.
+Processing scenario 102 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/9fa338e121505a54.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/cd6f5257cb175e0a.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/b916a7cf68255cef.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/9aa76ff06fd153d8.pcd. Using empty LiDAR.
+Processing scenario 103 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/64e3cad89aca53d5.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/e580f055626657ae.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/ee83f55b7d885280.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/4af3bf4ef6f35dc7.pcd. Using empty LiDAR.
+Processing scenario 104 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_F0/ed0d874e220658b9.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_L0/20eebef6307257c3.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/CAM_R0/964c47ec2c0a5e1a.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.07.26.10_veh-52_00006_00398/MergedPointCloud/4f87ef91e3425ebc.pcd. Using empty LiDAR.
+Processing scenario 105 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_F0/ad86a758843d5df6.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_L0/4374a8c643f95abb.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/CAM_R0/f1f13962f46e5247.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.19.27.01_veh-45_01749_03230/MergedPointCloud/35f13a6de1575fdc.pcd. Using empty LiDAR.
+Processing scenario 106 / 106 in thread_id=351fd062-9c13-42b6-8604-fa38fb45d1b9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01590_01725/CAM_F0/7f58972b57605c24.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01590_01725/CAM_L0/6e92f57fc55f54cc.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01590_01725/CAM_R0/f454db48d4ab5a76.jpg. Using empty camera.
+LiDAR file missing: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_01590_01725/MergedPointCloud/6b9c9cf543b25944.pcd. Using empty LiDAR.

@@ -1,0 +1,11 @@
+[2025-11-27 20:39:10,400][navsim.planning.script.builders.worker_pool_builder][INFO] - Building WorkerPool...
+[2025-11-27 20:39:11,491][navsim.planning.utils.multithreading.worker_ray_no_torch][INFO] - Not using GPU in ray
+[2025-11-27 20:39:11,491][navsim.planning.utils.multithreading.worker_ray_no_torch][INFO] - Starting ray local!
+[2025-11-27 20:39:17,620][nuplan.planning.utils.multithreading.worker_pool][INFO] - Worker: RayDistributedNoTorch
+[2025-11-27 20:39:17,621][nuplan.planning.utils.multithreading.worker_pool][INFO] - Number of nodes: 1
+Number of CPUs per node: 20
+Number of GPUs per node: 0
+Number of threads across all nodes: 20
+[2025-11-27 20:39:17,621][navsim.planning.script.builders.worker_pool_builder][INFO] - Building WorkerPool...DONE!
+[2025-11-27 20:39:19,706][__main__][WARNING] - Unused metric cache for 69264 tokens. Skipping these tokens.
+[2025-11-27 20:39:19,706][__main__][INFO] - Starting pdm scoring of 447 scenarios...

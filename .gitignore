@@ -6,22 +6,70 @@
 
 # IDE
 .vscode/*
+.idea/
+*.swp
+*.swo
+*~
 
 # Pip
 *.egg-info
+dist/
+build/
 
 # files
 *.log
 *.pkl
 *.pcd
 
-nuplan/
-exp/
-download/
+# Dataset directories (ignore all dataset paths)
 dataset/
-ckpts
+download/
+navsim/download/
+navsim_logs/
+sensor_blobs/
+navhard_two_stage/
+openscene_meta_datas/
+synthetic_scene_pickles/
+synthetic_scenes_attributes.csv
 
+# Experiment results and outputs
+# exp/  # Keep exp/ directory (uncommented to track experiment results)
 vis/
-extra_data/
 
+# Checkpoints and model weights
+ckpts/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.hdf5
+
+# Extra data and cache
+extra_data/
+# Ignore .npy files, but keep exceptions
+*.npy
+!**/trajectory_anchors_*.npy  # Keep trajectory anchor files if needed
+# Keep exp/ directory and all its contents (including .npy files)
+!exp/
+!exp/**
+metric_cache/
+cache/
+
+# nuplan (if cloned as submodule)
+nuplan/
+
+# Temporary files
 trans.sh
+*.tmp
+*.temp
+.DS_Store
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv
+venv/
+env/

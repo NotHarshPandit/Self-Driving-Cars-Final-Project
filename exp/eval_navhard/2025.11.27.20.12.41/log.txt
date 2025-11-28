@@ -1,0 +1,9 @@
+2025-11-27 20:12:41,296 INFO {/home/harsh/SeerDrive/navsim/planning/script/builders/worker_pool_builder.py:20}  Building WorkerPool...
+2025-11-27 20:12:42,392 INFO {/home/harsh/SeerDrive/navsim/planning/utils/multithreading/worker_ray_no_torch.py:51}  Not using GPU in ray
+2025-11-27 20:12:42,392 INFO {/home/harsh/SeerDrive/navsim/planning/utils/multithreading/worker_ray_no_torch.py:77}  Starting ray local!
+2025-11-27 20:12:48,664 INFO {/home/harsh/anaconda3/envs/navsim_seerdrive/lib/python3.9/site-packages/nuplan/planning/utils/multithreading/worker_pool.py:101}  Worker: RayDistributedNoTorch
+2025-11-27 20:12:48,664 INFO {/home/harsh/anaconda3/envs/navsim_seerdrive/lib/python3.9/site-packages/nuplan/planning/utils/multithreading/worker_pool.py:102}  Number of nodes: 1
+Number of CPUs per node: 20
+Number of GPUs per node: 0
+Number of threads across all nodes: 20
+2025-11-27 20:12:48,664 INFO {/home/harsh/SeerDrive/navsim/planning/script/builders/worker_pool_builder.py:31}  Building WorkerPool...DONE!

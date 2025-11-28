@@ -1,0 +1,8 @@
+- agent=SeerDrive_agent
+- agent.checkpoint_path=/home/harsh/SeerDrive/checkpoints/seerdrive_checkpoint.ckpt
+- agent.config._target_=navsim.agents.SeerDrive.configs.default.SeerDriveConfig
+- experiment_name=eval_navhard
+- split=test
+- scene_filter=navhard_two_stage
+- sensor_blobs_path=/home/harsh/dataset/navhard_two_stage/sensor_blobs
+- metric_cache_path=/home/harsh/SeerDrive/exp/metric_cache

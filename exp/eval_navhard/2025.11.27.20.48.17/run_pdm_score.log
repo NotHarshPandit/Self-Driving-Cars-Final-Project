@@ -1,0 +1,18 @@
+[2025-11-27 20:48:17,310][navsim.planning.script.builders.worker_pool_builder][INFO] - Building WorkerPool...
+[2025-11-27 20:48:18,421][navsim.planning.utils.multithreading.worker_ray_no_torch][INFO] - Not using GPU in ray
+[2025-11-27 20:48:18,421][navsim.planning.utils.multithreading.worker_ray_no_torch][INFO] - Starting ray local!
+[2025-11-27 20:48:23,755][nuplan.planning.utils.multithreading.worker_pool][INFO] - Worker: RayDistributedNoTorch
+[2025-11-27 20:48:23,756][nuplan.planning.utils.multithreading.worker_pool][INFO] - Number of nodes: 1
+Number of CPUs per node: 5
+Number of GPUs per node: 0
+Number of threads across all nodes: 5
+[2025-11-27 20:48:23,756][navsim.planning.script.builders.worker_pool_builder][INFO] - Building WorkerPool...DONE!
+[2025-11-27 20:48:25,969][__main__][WARNING] - Unused metric cache for 69264 tokens. Skipping these tokens.
+[2025-11-27 20:48:25,969][__main__][INFO] - Starting pdm scoring of 447 scenarios...
+[2025-11-27 20:48:33,788][__main__][INFO] - 
+        Finished running evaluation.
+            Number of successful scenarios: 0. 
+            Number of failed scenarios: 447.
+            No valid results to compute average score (all scenarios failed or no 'score' column).
+            Results are stored in: /home/harsh/SeerDrive/exp/eval_navhard/2025.11.27.20.48.17/2025.11.27.20.48.33.csv.
+    

@@ -1,0 +1,61 @@
+scene_filter:
+  _target_: navsim.common.dataclasses.SceneFilter
+  _convert_: all
+  num_history_frames: 4
+  num_future_frames: 10
+  frame_interval: null
+  has_route: true
+  max_scenes: null
+  log_names: null
+  tokens: null
+worker:
+  _target_: navsim.planning.utils.multithreading.worker_ray_no_torch.RayDistributedNoTorch
+  _convert_: all
+  master_node_ip: null
+  threads_per_node: null
+  debug_mode: false
+  log_to_driver: true
+  logs_subdir: logs
+  use_distributed: false
+split: ???
+distributed_timeout_seconds: 7200
+selected_simulation_metrics: null
+verbose: false
+logger_level: info
+logger_format_string: null
+max_number_of_workers: null
+gpu: true
+experiment_name: gen_multi_trajs
+navsim_log_path: ${oc.env:OPENSCENE_DATA_ROOT}/navsim_logs/${split}
+sensor_blobs_path: ${oc.env:OPENSCENE_DATA_ROOT}/sensor_blobs/${split}
+date_format: '%Y.%m.%d.%H.%M.%S'
+experiment_uid: ${now:${date_format}}
+output_dir: ${oc.env:NAVSIM_EXP_ROOT}/${experiment_name}/${experiment_uid}
+proposal_sampling:
+  _target_: nuplan.planning.simulation.trajectory.trajectory_sampling.TrajectorySampling
+  _convert_: all
+  num_poses: 40
+  interval_length: 0.1
+simulator:
+  _target_: navsim.planning.simulation.planner.pdm_planner.simulation.pdm_simulator.PDMSimulator
+  _convert_: all
+  proposal_sampling: ${proposal_sampling}
+scorer:
+  _target_: navsim.planning.simulation.planner.pdm_planner.scoring.pdm_scorer.PDMScorer
+  _convert_: all
+  proposal_sampling: ${proposal_sampling}
+  config:
+    _target_: navsim.planning.simulation.planner.pdm_planner.scoring.pdm_scorer.PDMScorerConfig
+    _convert_: all
+    progress_weight: 5.0
+    ttc_weight: 5.0
+    comfortable_weight: 2.0
+    driving_direction_horizon: 1.0
+    driving_direction_compliance_threshold: 2.0
+    driving_direction_violation_threshold: 6.0
+    stopped_speed_threshold: 0.005
+    progress_distance_threshold: 5.0
+agent:
+  _target_: navsim.agents.constant_velocity_agent.ConstantVelocityAgent
+  _convert_: all
+metric_cache_path: ${oc.env:NAVSIM_EXP_ROOT}/metric_cache

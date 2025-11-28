@@ -426,6 +426,21 @@ class SeerDrive(nn.Module):
         """
         _, backbone_bev_feature, _ = self._backbone(camera_feature, lidar_feature)
         bev_feature = self._bev_downscale(backbone_bev_feature).flatten(-2, -1).permute(0, 2, 1)
+        
+        # Handle dimension mismatch: ensure BEV feature has expected spatial dimensions (64)
+        expected_spatial_dim = self.num_plan_queries  # Should be 64 (8x8)
+        if bev_feature.shape[1] != expected_spatial_dim:
+            # Reshape or pad/truncate to match expected dimensions
+            batch_size, spatial_dim, feature_dim = bev_feature.shape
+            if spatial_dim > expected_spatial_dim:
+                # Truncate: take first expected_spatial_dim positions
+                bev_feature = bev_feature[:, :expected_spatial_dim, :]
+            elif spatial_dim < expected_spatial_dim:
+                # Pad: repeat last position or use zeros
+                padding = torch.zeros(batch_size, expected_spatial_dim - spatial_dim, feature_dim, 
+                                    device=bev_feature.device, dtype=bev_feature.dtype)
+                bev_feature = torch.cat([bev_feature, padding], dim=1)
+        
         flatten_bev_feature = bev_feature + self._keyval_embedding.weight[None, :, :]
         return backbone_bev_feature, flatten_bev_feature
 

@@ -64,13 +64,42 @@ class Cameras:
             camera_identifier = camera_name.lower()
             if camera_identifier in sensor_names:
                 image_path = sensor_blobs_path / camera_dict[camera_name]["data_path"]
-                data_dict[camera_identifier] = Camera(
-                    image=np.array(Image.open(image_path)),
-                    sensor2lidar_rotation=camera_dict[camera_name]["sensor2lidar_rotation"],
-                    sensor2lidar_translation=camera_dict[camera_name]["sensor2lidar_translation"],
-                    intrinsics=camera_dict[camera_name]["cam_intrinsic"],
-                    distortion=camera_dict[camera_name]["distortion"],
-                )
+                # Handle missing image files gracefully
+                if image_path.exists():
+                    try:
+                        image = np.array(Image.open(image_path))
+                    except Exception as e:
+                        # If image file exists but can't be opened, create empty camera
+                        import logging
+                        logger = logging.getLogger(__name__)
+                        logger.warning(f"Failed to load image {image_path}: {e}. Using empty camera.")
+                        data_dict[camera_identifier] = Camera(
+                            image=None,
+                            sensor2lidar_rotation=camera_dict[camera_name]["sensor2lidar_rotation"],
+                            sensor2lidar_translation=camera_dict[camera_name]["sensor2lidar_translation"],
+                            intrinsics=camera_dict[camera_name]["cam_intrinsic"],
+                            distortion=camera_dict[camera_name]["distortion"],
+                        )
+                    else:
+                        data_dict[camera_identifier] = Camera(
+                            image=image,
+                            sensor2lidar_rotation=camera_dict[camera_name]["sensor2lidar_rotation"],
+                            sensor2lidar_translation=camera_dict[camera_name]["sensor2lidar_translation"],
+                            intrinsics=camera_dict[camera_name]["cam_intrinsic"],
+                            distortion=camera_dict[camera_name]["distortion"],
+                        )
+                else:
+                    # Image file doesn't exist - create empty camera
+                    import logging
+                    logger = logging.getLogger(__name__)
+                    logger.warning(f"Image file not found: {image_path}. Using empty camera.")
+                    data_dict[camera_identifier] = Camera(
+                        image=None,
+                        sensor2lidar_rotation=camera_dict[camera_name]["sensor2lidar_rotation"],
+                        sensor2lidar_translation=camera_dict[camera_name]["sensor2lidar_translation"],
+                        intrinsics=camera_dict[camera_name]["cam_intrinsic"],
+                        distortion=camera_dict[camera_name]["distortion"],
+                    )
             else:
                 data_dict[camera_identifier] = Camera()  # empty camera
 
@@ -96,6 +125,11 @@ class Lidar:
 
     @staticmethod
     def _load_bytes(lidar_path: Path) -> BinaryIO:
+        if not lidar_path.exists():
+            import logging
+            logger = logging.getLogger(__name__)
+            logger.warning(f"LiDAR file not found: {lidar_path}. Returning empty BytesIO.")
+            return io.BytesIO(b"")  # Return empty BytesIO if file doesn't exist
         with open(lidar_path, "rb") as fp:
             return io.BytesIO(fp.read())
 
@@ -110,8 +144,24 @@ class Lidar:
         # NOTE: this could be extended to load specific LiDARs in the merged pc
         if "lidar_pc" in sensor_names:
             global_lidar_path = sensor_blobs_path / lidar_path
-            lidar_pc = LidarPointCloud.from_buffer(cls._load_bytes(global_lidar_path), "pcd").points
-            return Lidar(lidar_pc)
+            if not global_lidar_path.exists():
+                import logging
+                logger = logging.getLogger(__name__)
+                logger.warning(f"LiDAR file missing: {global_lidar_path}. Using empty LiDAR.")
+                return Lidar(lidar_pc=None)  # Empty LiDAR
+            try:
+                lidar_buffer = cls._load_bytes(global_lidar_path)
+                if lidar_buffer.getvalue() == b"":
+                    # Empty buffer means file was missing
+                    return Lidar(lidar_pc=None)
+                lidar_pc = LidarPointCloud.from_buffer(lidar_buffer, "pcd").points
+                return Lidar(lidar_pc)
+            except Exception as e:
+                # If loading fails, return empty LiDAR
+                import logging
+                logger = logging.getLogger(__name__)
+                logger.warning(f"Failed to load LiDAR from {global_lidar_path}: {e}. Using empty LiDAR.")
+                return Lidar(lidar_pc=None)  # Empty LiDAR
         return Lidar()  # empty lidar
 
 

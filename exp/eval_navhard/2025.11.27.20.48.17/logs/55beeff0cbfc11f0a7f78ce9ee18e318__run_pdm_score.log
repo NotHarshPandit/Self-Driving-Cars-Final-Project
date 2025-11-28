@@ -1,0 +1,341 @@
+Starting worker in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Processing scenario 1 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_F0/086501dd9ab45c8f.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_L0/21012465a2e658b1.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_R0/534b1b80c30d5eba.jpg. Using empty camera.
+----------- Agent failed for token a51fda3f10da5432:
+Processing scenario 2 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00337_00504/CAM_F0/efb8756280e654e1.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00337_00504/CAM_L0/add42e2dab7d5a2e.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00337_00504/CAM_R0/04f158fefa065f74.jpg. Using empty camera.
+----------- Agent failed for token 19585f102d0a5fb6:
+Processing scenario 3 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00238_00320/CAM_F0/2675e63a39b955a0.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00238_00320/CAM_L0/9d051f0c3c47591a.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00238_00320/CAM_R0/ce78c1619c9a5272.jpg. Using empty camera.
+----------- Agent failed for token c65c265780365bb1:
+Processing scenario 4 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.05.25.14.16.10_veh-35_01690_02183/CAM_F0/e20705ad5bfc5d67.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.05.25.14.16.10_veh-35_01690_02183/CAM_L0/a5c1be6105d95167.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.05.25.14.16.10_veh-35_01690_02183/CAM_R0/bb586c148afb546d.jpg. Using empty camera.
+----------- Agent failed for token 008d66a74c275479:
+Processing scenario 5 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00238_00320/CAM_F0/206d7711d75756ed.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00238_00320/CAM_L0/8e9b8fbd655f5963.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00238_00320/CAM_R0/ac361c7d774f5213.jpg. Using empty camera.
+----------- Agent failed for token 16295788c73b5d86:
+Processing scenario 6 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_F0/513ba3822f145da7.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_L0/849cc57f06965a08.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_R0/960022181e6650e4.jpg. Using empty camera.
+----------- Agent failed for token 8685d4420d83534f:
+Processing scenario 7 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_F0/a67324d79eeb5848.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_L0/7e48b50169905e28.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_R0/de90e8441e4056cb.jpg. Using empty camera.
+----------- Agent failed for token 2fe345a90b6559e1:
+Processing scenario 8 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.14.39.34_veh-42_01111_01448/CAM_F0/07cb13b0597f5895.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.14.39.34_veh-42_01111_01448/CAM_L0/f43d627ba94f5c1f.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.14.39.34_veh-42_01111_01448/CAM_R0/92c63c378f445f65.jpg. Using empty camera.
+----------- Agent failed for token fb35180af57e571f:
+Processing scenario 9 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_F0/a834af6483fc5877.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_L0/ce117d3e42435b0b.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_R0/7b8e285df06f5a4e.jpg. Using empty camera.
+----------- Agent failed for token 7edfabe116e25844:
+Processing scenario 10 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_F0/1f565dcecaa65d24.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_L0/7deb1c7bb07b5d87.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_R0/8b233fdb990951eb.jpg. Using empty camera.
+----------- Agent failed for token 05c1feab4b8f5957:
+Processing scenario 11 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.13.55.17_veh-35_02572_02855/CAM_F0/c536a71d368d5999.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.13.55.17_veh-35_02572_02855/CAM_L0/47ddbdbe69545689.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.13.55.17_veh-35_02572_02855/CAM_R0/6ecc1eb3d0e251fe.jpg. Using empty camera.
+----------- Agent failed for token 11bf2d4580ab5bc2:
+Processing scenario 12 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_F0/5ab9beb664a05302.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_L0/c630c796ed6a5d70.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_R0/8283c092a2c157e6.jpg. Using empty camera.
+----------- Agent failed for token 59db265fc4cf5a41:
+Processing scenario 13 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.18.47.39_veh-35_00503_00777/CAM_F0/92d45db5605a5f95.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.18.47.39_veh-35_00503_00777/CAM_L0/f374df7e53105487.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.18.47.39_veh-35_00503_00777/CAM_R0/f678b086e11e554e.jpg. Using empty camera.
+----------- Agent failed for token d85c679f79b552ae:
+Processing scenario 14 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_F0/290a7d9e7bc8536c.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_L0/d3dfe1b1ca9952ef.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_R0/1a29696f29b45588.jpg. Using empty camera.
+----------- Agent failed for token 3e41024d080454b5:
+Processing scenario 15 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.14.39.34_veh-42_01111_01448/CAM_F0/ab2d058bfd0c5e65.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.14.39.34_veh-42_01111_01448/CAM_L0/525c016fdcd953a2.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.14.39.34_veh-42_01111_01448/CAM_R0/7d76faf7960d5738.jpg. Using empty camera.
+----------- Agent failed for token d94aa4b0e05e5be9:
+Processing scenario 16 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_F0/bf7a871a58215c03.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_L0/150b00d4947c54a8.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_R0/f492cfb6160c5a47.jpg. Using empty camera.
+----------- Agent failed for token fc8a398075265f44:
+Processing scenario 17 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.21.13.37_veh-42_00172_00347/CAM_F0/9a4b6cf9c39159b8.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.21.13.37_veh-42_00172_00347/CAM_L0/cd2d5e8114a351a1.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.21.13.37_veh-42_00172_00347/CAM_R0/31c9b42bc5535d89.jpg. Using empty camera.
+----------- Agent failed for token 5fc741e3c1875ae3:
+Processing scenario 18 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.15.23.04_veh-28_00601_00802/CAM_F0/a9bf77e51bbd5a7c.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.15.23.04_veh-28_00601_00802/CAM_L0/041f053da45159c1.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.15.23.04_veh-28_00601_00802/CAM_R0/ab8b3daf9aa9515e.jpg. Using empty camera.
+----------- Agent failed for token 1774308b2ce65a6b:
+Processing scenario 19 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_F0/13f5172434e75858.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_L0/d475fe45711a5eca.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_R0/e072e5cd4fae51bb.jpg. Using empty camera.
+----------- Agent failed for token 89b190b36cd75ce9:
+Processing scenario 20 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.17.06.58_veh-35_03860_03992/CAM_F0/db066a71fe2e57af.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.17.06.58_veh-35_03860_03992/CAM_L0/0c5d2f92e4fd5dab.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.17.06.58_veh-35_03860_03992/CAM_R0/0812303487e4562b.jpg. Using empty camera.
+----------- Agent failed for token cdba5e3c59af59da:
+Processing scenario 21 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_F0/0be5b4e8db9f5ab3.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_L0/9bba3ddefb9c5191.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_R0/c80dcad3e935533f.jpg. Using empty camera.
+----------- Agent failed for token 601c3cce2a215275:
+Processing scenario 22 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_F0/d8ad519a36875b40.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_L0/3122d679de2e5b9b.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_R0/5e7eecfea85c5f91.jpg. Using empty camera.
+----------- Agent failed for token c5510354351d5d5e:
+Processing scenario 23 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.16.20.27_veh-08_02435_02525/CAM_F0/8fd83de3808d5f2e.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.16.20.27_veh-08_02435_02525/CAM_L0/15920949048259aa.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.16.20.27_veh-08_02435_02525/CAM_R0/7dc1da12ace05ed2.jpg. Using empty camera.
+----------- Agent failed for token 964f8f7263c0562f:
+Processing scenario 24 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_F0/89b68ad635f259d5.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_L0/77ee9700f1745d34.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_R0/dbcc797fc78b5177.jpg. Using empty camera.
+----------- Agent failed for token c370f836e3275da4:
+Processing scenario 25 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_F0/4b8b175f7a025f04.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_L0/ba29be2e5df352b2.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_R0/219c85b10e645d14.jpg. Using empty camera.
+----------- Agent failed for token c0b8f52197ac558c:
+Processing scenario 26 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_F0/ae8f7951269e5d82.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_L0/ac18b38e28f750ae.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_R0/d42d60f3ac645019.jpg. Using empty camera.
+----------- Agent failed for token 80c159e90ae755f3:
+Processing scenario 27 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_F0/6cb155a8bde85065.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_L0/6f0d68d13aa857f1.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_R0/d994deda7a0d5d55.jpg. Using empty camera.
+----------- Agent failed for token e66d21ee45e65dac:
+Processing scenario 28 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.13.55.17_veh-35_02572_02855/CAM_F0/aae05dd3205c58a7.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.13.55.17_veh-35_02572_02855/CAM_L0/a8accc4e86255831.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.13.55.17_veh-35_02572_02855/CAM_R0/eb9292b5864d5e50.jpg. Using empty camera.
+----------- Agent failed for token c0fb4281da785582:
+Processing scenario 29 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_F0/19472d02fc105015.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_L0/b429206a9ae057bb.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_R0/dad9c319cda05845.jpg. Using empty camera.
+----------- Agent failed for token bca8b9c053845df8:
+Processing scenario 30 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00238_00320/CAM_F0/973e0df51dff54ac.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00238_00320/CAM_L0/7d1c6209ad905e41.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00238_00320/CAM_R0/fa77286979d058cf.jpg. Using empty camera.
+----------- Agent failed for token fb21dbec77535015:
+Processing scenario 31 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_F0/56ab5a1807185149.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_L0/f602f24caf0054fd.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_R0/adee47cf54585920.jpg. Using empty camera.
+----------- Agent failed for token 8a81c8c3f87b5c9c:
+Processing scenario 32 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_F0/8d02dd8b2e3a5698.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_L0/aa229360e9d3526a.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_R0/62119ca4bc105c36.jpg. Using empty camera.
+----------- Agent failed for token 8cef0a91cc225732:
+Processing scenario 33 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.15.23.04_veh-28_00601_00802/CAM_F0/16ea4c8b2346501b.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.15.23.04_veh-28_00601_00802/CAM_L0/e130a301c256599f.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.15.23.04_veh-28_00601_00802/CAM_R0/191a855416545a18.jpg. Using empty camera.
+----------- Agent failed for token eba2b9d63f5b5ae8:
+Processing scenario 34 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_F0/03701bb98a015619.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_L0/339dcd4b724e54c6.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_R0/7e19bae026955553.jpg. Using empty camera.
+----------- Agent failed for token 97e2daddecd557a4:
+Processing scenario 35 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_F0/c4b2ca36d219501e.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_L0/aba1e84ed5665773.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_R0/bad900a8ac825159.jpg. Using empty camera.
+----------- Agent failed for token 25cdf7dee0d25a66:
+Processing scenario 36 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_F0/3b764621de2559a2.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_L0/5be338e4a67e5ea9.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_R0/45b7c7009a7555f0.jpg. Using empty camera.
+----------- Agent failed for token 0f2b6cc2c32a51d8:
+Processing scenario 37 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_F0/98efb3d44615509b.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_L0/1ffc16b546185c95.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_R0/2a93279cebe1573e.jpg. Using empty camera.
+----------- Agent failed for token a50a5cf062ed5135:
+Processing scenario 38 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00337_00504/CAM_F0/e2630c8eedbf50ea.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00337_00504/CAM_L0/3a7cb4dac64351d4.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00337_00504/CAM_R0/90c28bb8c1c85efa.jpg. Using empty camera.
+----------- Agent failed for token 7032d9dfb6415988:
+Processing scenario 39 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_F0/68dad40198a85210.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_L0/e6eb32b47da452a3.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_R0/3c427c8d66e75f19.jpg. Using empty camera.
+----------- Agent failed for token 8f8ce43e73ab5045:
+Processing scenario 40 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_F0/197e4d8ef58c5cae.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_L0/9228903ddf235ab9.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_R0/3f165ee6a0745e41.jpg. Using empty camera.
+----------- Agent failed for token 13559c5a97855007:
+Processing scenario 41 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_F0/1b2bcb6dcfb05b68.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_L0/a901a7ed1d435f34.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_R0/3b7b69a75e8a563b.jpg. Using empty camera.
+----------- Agent failed for token 490463fd7e9e5769:
+Processing scenario 42 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.16.20.27_veh-08_02435_02525/CAM_F0/bbece9fcc9a25151.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.16.20.27_veh-08_02435_02525/CAM_L0/d07e5fb6b62c5421.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.16.20.27_veh-08_02435_02525/CAM_R0/da8bddfd313f5c89.jpg. Using empty camera.
+----------- Agent failed for token 66a2be8354ba5535:
+Processing scenario 43 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_F0/0464c8d59e185b71.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_L0/f18eceb597125c96.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_R0/37d5763614eb5868.jpg. Using empty camera.
+----------- Agent failed for token 5e4dd8c91b8453bf:
+Processing scenario 44 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_F0/a5247f46df535537.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_L0/0bb1214adf5e5430.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_R0/38e1d3d289b45034.jpg. Using empty camera.
+----------- Agent failed for token 55eed45c895852b9:
+Processing scenario 45 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00337_00504/CAM_F0/dc36dea41c1a5783.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00337_00504/CAM_L0/53c68cf499095b1c.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00337_00504/CAM_R0/859052991a9b57f0.jpg. Using empty camera.
+----------- Agent failed for token 2fb54b28d0c55807:
+Processing scenario 46 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.21.13.37_veh-42_00172_00347/CAM_F0/704d249b1f795a71.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.21.13.37_veh-42_00172_00347/CAM_L0/1b80aec9c3855bc4.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.21.13.37_veh-42_00172_00347/CAM_R0/55b4d9c3f900577e.jpg. Using empty camera.
+----------- Agent failed for token 47510e11da5555ed:
+Processing scenario 47 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_F0/b967753713c75cd3.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_L0/88e55a061cd55f23.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_R0/71f86379de0852bd.jpg. Using empty camera.
+----------- Agent failed for token a7eedd1eb65b51bf:
+Processing scenario 48 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.05.25.14.16.10_veh-35_01690_02183/CAM_F0/f29fd93a66cc5508.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.05.25.14.16.10_veh-35_01690_02183/CAM_L0/48b62ca5a0ce5b27.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.05.25.14.16.10_veh-35_01690_02183/CAM_R0/de8a3fc34be8556f.jpg. Using empty camera.
+----------- Agent failed for token c4b1d4fabd315035:
+Processing scenario 49 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.17.06.58_veh-35_03860_03992/CAM_F0/51ac0929b6075357.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.17.06.58_veh-35_03860_03992/CAM_L0/89f71f1c9cdf5404.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.17.06.58_veh-35_03860_03992/CAM_R0/90078c675e585457.jpg. Using empty camera.
+----------- Agent failed for token 17e417633368553f:
+Processing scenario 50 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_F0/867bc8f9b8fe51e1.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_L0/e809e29b6e8652ef.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_R0/5becf6bb19fa5a19.jpg. Using empty camera.
+----------- Agent failed for token c7af3cc6ee42577f:
+Processing scenario 51 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_F0/576ffac5a3d65a92.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_L0/222b126b30ce5ffa.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_R0/9cb62be05b925749.jpg. Using empty camera.
+----------- Agent failed for token 5f124bba478c570a:
+Processing scenario 52 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_F0/f2d4216c88f0598f.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_L0/fa46993eae145766.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_R0/2d624e5affa95f26.jpg. Using empty camera.
+----------- Agent failed for token f419cea88ed9500b:
+Processing scenario 53 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_F0/ba87f0b32bb75cd6.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_L0/7978e4cfdb1c5598.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_R0/96867e8163e3537c.jpg. Using empty camera.
+----------- Agent failed for token 5ea36cebd2575b16:
+Processing scenario 54 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_F0/0e9e45ea576351bc.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_L0/10263b3b79e45277.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_R0/2dcc3ae7323b56c9.jpg. Using empty camera.
+----------- Agent failed for token 8c240d53cf9e5c6a:
+Processing scenario 55 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00612_00782/CAM_F0/34931178b60f5f1c.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00612_00782/CAM_L0/8919d025e51c5caa.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00612_00782/CAM_R0/c7705907640b55e6.jpg. Using empty camera.
+----------- Agent failed for token afb6f330e8665731:
+Processing scenario 56 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_F0/4a6f656cf8b85f67.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_L0/953e4370b0f75f1c.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_R0/928c5703a8be56ff.jpg. Using empty camera.
+----------- Agent failed for token b8d4a8d9b16859d4:
+Processing scenario 57 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.18.47.39_veh-35_00503_00777/CAM_F0/9f5c16893590515e.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.18.47.39_veh-35_00503_00777/CAM_L0/d5e3b8b8e143519c.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.06.03.18.47.39_veh-35_00503_00777/CAM_R0/76aa5a0aee9c5ce0.jpg. Using empty camera.
+----------- Agent failed for token 229e86f19e7d5ced:
+Processing scenario 58 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_F0/c9a2d93f31cb53ec.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_L0/3b9c5e8364d55712.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.13.53.10_veh-42_00180_00342/CAM_R0/7f8b221d6256543d.jpg. Using empty camera.
+----------- Agent failed for token d849d3813e3052d0:
+Processing scenario 59 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_F0/cc8288ad7a4455a9.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_L0/2554b4dca9ae502b.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.19.02.14_veh-28_00540_00917/CAM_R0/3edfbc13e19e5dde.jpg. Using empty camera.
+----------- Agent failed for token cf602364e14b563d:
+Processing scenario 60 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_F0/a55a24ca4b5c51b5.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_L0/a1eaa82446715913.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.15.12.03_veh-42_01037_01434/CAM_R0/69f160e180245d35.jpg. Using empty camera.
+----------- Agent failed for token 1b30838ebfee5924:
+Processing scenario 61 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_F0/91425c4677c45885.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_L0/5f4b816daa7b58e8.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_R0/1474ad2a04fa58a4.jpg. Using empty camera.
+----------- Agent failed for token 182fe7c6dd5b5e44:
+Processing scenario 62 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00612_00782/CAM_F0/8cce0eb4ce215972.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00612_00782/CAM_L0/dd0f9c19a11c56a2.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.10.06.08.16.17_veh-52_00612_00782/CAM_R0/e791100e144851d0.jpg. Using empty camera.
+----------- Agent failed for token 57b4b980c94757c1:
+Processing scenario 63 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_F0/2499f54f27f351b7.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_L0/00e055b0e7815f13.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_R0/a8823cdcc0b85417.jpg. Using empty camera.
+----------- Agent failed for token 49abf280107f5810:
+Processing scenario 64 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.14.39.34_veh-42_01111_01448/CAM_F0/ff03daa0ef87512b.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.14.39.34_veh-42_01111_01448/CAM_L0/423ec664837152e2.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.14.39.34_veh-42_01111_01448/CAM_R0/8c9f9a072baf5902.jpg. Using empty camera.
+----------- Agent failed for token fd676fd01e475e33:
+Processing scenario 65 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00337_00504/CAM_F0/0cbdf77ed9245e95.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00337_00504/CAM_L0/ea449904c24055a6.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00337_00504/CAM_R0/09389bbac2c25867.jpg. Using empty camera.
+----------- Agent failed for token de756f627de855fd:
+Processing scenario 66 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_F0/b6dc143198015cb7.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_L0/ae490d6176fc5750.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.08.30.14.54.34_veh-40_00439_00835/CAM_R0/1931830490a65976.jpg. Using empty camera.
+----------- Agent failed for token 01e6276eff385ea8:
+Processing scenario 67 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.14.39.34_veh-42_01111_01448/CAM_F0/7d4e494f8a015178.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.14.39.34_veh-42_01111_01448/CAM_L0/abff9144be1d50ef.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.16.14.39.34_veh-42_01111_01448/CAM_R0/6139b260d16d5214.jpg. Using empty camera.
+----------- Agent failed for token 6ea198f259b85e49:
+Processing scenario 68 / 68 in thread_id=ed7b0b45-4fe1-444c-998b-55fe4fc59ef9, node_id=0
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00238_00320/CAM_F0/30da790d45055600.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00238_00320/CAM_L0/19eb8fdf2fcb503a.jpg. Using empty camera.
+Image file not found: /home/harsh/dataset/navhard_two_stage/sensor_blobs/2021.09.29.14.44.26_veh-28_00238_00320/CAM_R0/777f176151a25e11.jpg. Using empty camera.
+----------- Agent failed for token 2d6b0679be1753dc:

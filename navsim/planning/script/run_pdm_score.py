@@ -1,6 +1,7 @@
 import pandas as pd
 from tqdm import tqdm
 import traceback
+import numpy as np
 
 import hydra
 from hydra.utils import instantiate
@@ -82,7 +83,20 @@ def main(cfg: DictConfig) -> None:
         score_rows: List[Tuple[Dict[str, Any], int, int]] = worker_map(worker, run_pdm_score, data_points)
     
 
-    pdm_score_df = pd.DataFrame(score_rows)
+    # Separate trajectories from scores for saving
+    trajectory_dict = {}
+    score_rows_for_df = []
+    
+    for row in score_rows:
+        if "trajectory_poses" in row:
+            trajectory_dict[row["token"]] = np.array(row["trajectory_poses"], dtype=np.float32)
+            # Remove trajectory from row for CSV (keep it in separate file)
+            row_for_df = {k: v for k, v in row.items() if k != "trajectory_poses"}
+            score_rows_for_df.append(row_for_df)
+        else:
+            score_rows_for_df.append(row)
+    
+    pdm_score_df = pd.DataFrame(score_rows_for_df)
     num_sucessful_scenarios = pdm_score_df["valid"].sum()
     num_failed_scenarios = len(pdm_score_df) - num_sucessful_scenarios
     average_row = pdm_score_df.drop(columns=["token", "valid"]).mean(skipna=True)
@@ -93,12 +107,25 @@ def main(cfg: DictConfig) -> None:
     save_path = Path(cfg.output_dir)
     timestamp = datetime.now().strftime("%Y.%m.%d.%H.%M.%S")
     pdm_score_df.to_csv(save_path / f"{timestamp}.csv")
+    
+    # Save trajectories to a separate numpy file
+    if trajectory_dict:
+        trajectories_save_path = save_path / f"{timestamp}_trajectories.npy"
+        np.save(trajectories_save_path, trajectory_dict, allow_pickle=True)
+        logger.info(f"Trajectories saved to: {trajectories_save_path}")
 
+    # Check if we have valid results before accessing 'score'
+    if num_sucessful_scenarios > 0 and 'score' in pdm_score_df.columns:
+        avg_score = pdm_score_df['score'].mean()
+        score_info = f"Final average score of valid results: {avg_score}."
+    else:
+        score_info = "No valid results to compute average score (all scenarios failed or no 'score' column)."
+    
     logger.info(f"""
         Finished running evaluation.
             Number of successful scenarios: {num_sucessful_scenarios}. 
             Number of failed scenarios: {num_failed_scenarios}.
-            Final average score of valid results: {pdm_score_df['score'].mean()}.
+            {score_info}
             Results are stored in: {save_path / f"{timestamp}.csv"}.
     """)
 
@@ -157,6 +184,8 @@ def run_pdm_score(args: List[Dict[str, Union[List[str], DictConfig]]]) -> List[D
                 scorer=scorer,
             )
             score_row.update(asdict(pdm_result))
+            # Save trajectory poses (x, y, heading) for each scenario
+            score_row["trajectory_poses"] = trajectory.poses.tolist()  # Convert numpy array to list for JSON serialization
         except Exception as e:
             logger.warning(f"----------- Agent failed for token {token}:")
             traceback.print_exc()

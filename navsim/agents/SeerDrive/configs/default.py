@@ -13,8 +13,8 @@ class SeerDriveConfig:
         time_horizon=4, interval_length=0.5
     )
 
-    # TODO
-    resnet34_path = '/Path_To_SeerDrive/ckpts/resnet34.pth'
+    # ResNet34 pretrained weights path
+    resnet34_path = '/home/harsh/SeerDrive/ckpts/resnet34.pth'
 
     image_architecture: str = "resnet34"
     lidar_architecture: str = "resnet34"
@@ -126,9 +126,9 @@ class SeerDriveConfig:
     
     use_sim_reward: bool = True
 
-    # TODO
-    sim_reward_dict_path: str = f'/Path_To_SeerDrive/ckpts/extra_data/planning_vb/formatted_pdm_score_{num_traj_anchor}.npy'
-    cluster_file_path = f'/Path_To_SeerDrive/ckpts/extra_data/planning_vb/trajectory_anchors_{num_traj_anchor}.npy'
+    # Trajectory anchors and PDM scores paths
+    sim_reward_dict_path: str = f'/home/harsh/SeerDrive/ckpts/extra_data/planning_vb/formatted_pdm_score_{num_traj_anchor}.npy'
+    cluster_file_path = f'/home/harsh/SeerDrive/ckpts/extra_data/planning_vb/trajectory_anchors_{num_traj_anchor}.npy'
     
     num_plan_queries: int = 32
 

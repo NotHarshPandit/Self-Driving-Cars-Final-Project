@@ -52,10 +52,27 @@ class SeerDriveFeatureBuilder(AbstractFeatureBuilder):
 
         cameras = agent_input.cameras[-1]
 
+        # Handle missing camera images by creating black images of expected shape
+        # Expected shape after crop: (1024, 256, 3) for l0/r0, (1024, 1088, 3) for f0
+        def get_image_or_black(camera, has_x_crop=False):
+            if camera.image is None:
+                # Create black image of expected shape
+                if has_x_crop:
+                    # l0/r0: cropped to (1024, 256, 3) - width reduced by 416*2=832
+                    return np.zeros((1024, 256, 3), dtype=np.uint8)
+                else:
+                    # f0: cropped to (1024, 1088, 3) - only height cropped
+                    return np.zeros((1024, 1088, 3), dtype=np.uint8)
+            else:
+                if has_x_crop:
+                    return camera.image[28:-28, 416:-416]
+                else:
+                    return camera.image[28:-28]
+
         # Crop to ensure 4:1 aspect ratio (1024, 1088, 3)
-        l0 = cameras.cam_l0.image[28:-28, 416:-416]
-        f0 = cameras.cam_f0.image[28:-28]
-        r0 = cameras.cam_r0.image[28:-28, 416:-416]
+        l0 = get_image_or_black(cameras.cam_l0, has_x_crop=True)
+        f0 = get_image_or_black(cameras.cam_f0, has_x_crop=False)
+        r0 = get_image_or_black(cameras.cam_r0, has_x_crop=True)
 
         # stitch l0, f0, r0 images
         stitched_image = np.concatenate([l0, f0, r0], axis=1)  # (1024, 4096, 3)
@@ -71,8 +88,25 @@ class SeerDriveFeatureBuilder(AbstractFeatureBuilder):
         :return: LiDAR histogram as torch tensors
         """
 
+        # Handle missing LiDAR data
+        lidar = agent_input.lidars[-1]
+        if lidar.lidar_pc is None or lidar.lidar_pc.shape[1] == 0:
+            # Create empty histogram of expected shape
+            # Determine histogram shape from config
+            xbins_count = int((self._config.lidar_max_x - self._config.lidar_min_x) * int(self._config.pixels_per_meter) + 1)
+            ybins_count = int((self._config.lidar_max_y - self._config.lidar_min_y) * int(self._config.pixels_per_meter) + 1)
+            
+            if self._config.use_ground_plane:
+                # Two channels: below and above
+                features = np.zeros((2, xbins_count, ybins_count), dtype=np.float32)
+            else:
+                # One channel: above only
+                features = np.zeros((1, xbins_count, ybins_count), dtype=np.float32)
+            
+            return torch.tensor(features)
+
         # only consider (x,y,z) & swap axes for (N,3) numpy array
-        lidar_pc = agent_input.lidars[-1].lidar_pc[LidarIndex.POSITION].T
+        lidar_pc = lidar.lidar_pc[LidarIndex.POSITION].T
 
         # NOTE: Code from
         # https://github.com/autonomousvision/carla_garage/blob/main/team_code/data.py#L873
