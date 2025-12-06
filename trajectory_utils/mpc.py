@@ -1,190 +1,199 @@
-import casadi as ca
-import numpy as np
+from trajectory_utils.sim import *
+from trajectory_utils.utils import *
 
-def f_discrete(x, u, dt):
-    px, py, theta = x[0], x[1], x[2]
-    v, omega = u[0], u[1]
+def nmpc_controller(ref_trajectory):
+    target = ref_trajectory[-1,:]
+    T = 4 # prediction horizon
+    dt = 0.1 # time step
+    N = int(T / dt)  # number of steps in the horizon
 
-    px_next    = px    + dt * v * ca.cos(theta)
-    py_next    = py    + dt * v * ca.sin(theta)
-    theta_next = theta + dt * omega
+    Dim_state = 6 # (U_xk, U_yk, r, x_k, y_k, phi_k)
+    Dim_ctrl  = 2 # (F_xk, gamma_k)
+    Dim_aux   = 4 # (F_yf, F_yr, F_muf (slack front), F_mur (slack rear))
 
-    return ca.vertcat(px_next, py_next, theta_next)
+    # casadi variable for state, control, and auxiliary
+    xm = ca.MX.sym('xm', (Dim_state, 1)) 
+    um = ca.MX.sym('um', (Dim_ctrl, 1))
+    aux = ca.MX.sym('aux', (Dim_aux, 1))
 
+    # renaming the control inputs for better readability
+    Fx,delta = um[0], um[1]
 
-def build_mpc_solver(dt, N):
-    nx = 3  # state: [x, y, θ]
-    nu = 2  # input: [v, ω]
+    # Air drag and rolling resistance
+    Fd = param["Frr"] + param["Cd"] * xm[0]**2
+    Fd = Fd * ca.tanh(- xm[0] * 100)
+    Fb = 0.0
 
-    X = ca.SX.sym('X', nx, N+1)
-    U = ca.SX.sym('U', nu, N)
-    X0 = ca.SX.sym('X0', nx)
-    Xref = ca.SX.sym('Xref', nx, N+1)
+    # front and rear slip angles
+    af ,ar = get_slip_angle(xm[0] , xm[1] , delta , xm[2] , param)
 
-    # Significantly increased y-weight to correct systematic offset
-    # y-weight is much higher to ensure proper tracking
-    # Increased even more to force convergence to reference
-    # Made y-weight extremely high to force tracking
-    Q = ca.diag(ca.SX([15,40,10]))  
-    Q_final = ca.diag(ca.SX([30,80,20])) 
-    R = ca.diag(ca.SX([5, 20]))
+    # front and rear normal loads
+    Fzf , Fzr = normal_load(Fx, param)
 
-    cost = 0
-    constraints = [X[:,0] - X0]  # Initial state constraint: X[0] must equal X0
-    # Terminal cost
-    cost += (X[:,N] - Xref[:,N]).T @ Q_final @ (X[:,N] - Xref[:,N])
-    # cost += (X[:2,N] - Xref[:2,N]).T @ Q_final[:2,:2] @ (X[:2,N] - Xref[:2,N])
-    # Stage costs
+    # front and rear longitudinal forces
+    Fxf, Fxr = chi_fr(Fx)
+
+    # front and rear lateral forces
+    Fyf = tire_model_ctrl(af, Fzf, Fxf, param["C_alpha_f"], param["mu_f"] )
+    Fyr = tire_model_ctrl(ar, Fzr, Fxr, param["C_alpha_r"], param["mu_r"] )
+
+    # state derivatives
+    # x-acceleration
+    dUx = (Fxf * ca.cos(delta) - aux[0] * ca.sin(delta) + Fxr + Fd) / param["m"] + xm[2] * xm[1]
+    # y-acceleration
+    dUy = (aux[0] * ca.cos(delta) + Fxf * ca.sin(delta) + aux[1] + Fb) / param["m"] - xm[2] * xm[0] 
+    # yaw acceleration                 
+    dr = (param["L_f"] * (aux[0] * ca.cos(delta) + Fxf * ca.sin(delta)) - param["L_r"] * aux[1]) / param["Izz"] 
+
+    # x velocity
+    dx = ca.cos(xm[5]) * xm[0] - ca.sin(xm[5]) * xm[1]
+    # y velocity
+    dy = ca.sin(xm[5]) * xm[0] + ca.cos(xm[5]) * xm[1]
+    # yaw rate
+    dyaw = xm[2]
+
+    xdot = ca.vertcat(dUx, dUy, dr, dx, dy, dyaw)
+
+    xkp1 = xm + xdot * dt
+    Fun_dynamics_dt = ca.Function('f_dt', [xm, um, aux], [xkp1])
+
+    # enforce contraints for auxiliary variables
+    alg = ca.vertcat(aux[0] - Fyf, aux[1] - Fyr)
+    Fun_alg = ca.Function('alg', [xm, um, aux], [alg])
+
+    # """" MPC Variables """"""""
+    # state, control, auxiliary over the prediction horizon
+    x = ca.MX.sym('x', (Dim_state, N + 1))  # (U_xk, U_yk, r, x_k, y_k, phi_k)
+    u = ca.MX.sym('u', (Dim_ctrl, N))       # (F_xk, gamma_k)
+    z = ca.MX.sym('z', (Dim_aux, N))        # (F_yf, F_yr, F_muf (slack front), F_mur (slack rear))
+    # initial state parameter
+    p = ca.MX.sym('p', (Dim_state, 1))
+
+    ###################### MPC constraints start ######################
+    ## MPC equality constraints ##
+    cons_dynamics = []
     for k in range(N):
-        xk = X[:,k]
-        uk = U[:,k]
-        # Penalize tracking error: even for k=0, this helps guide the solution
-        # (though X[0] is constrained, the cost still influences the optimization)
-        cost += (xk - Xref[:,k]).T @ Q @ (xk - Xref[:,k])
-        # cost += (xk[:2] - Xref[:2,k]).T @ Q[:2,:2] @ (xk[:2] - Xref[:2,k])
-        # Penalize control effort
-        cost += uk.T @ R @ uk
+        xkp1 = Fun_dynamics_dt(x[:, k], u[:, k], z[:, k])
+        # Fy2 = Fun_alg(x[:, k], u[:, k], z[:, k])
+        Fy2  = Fun_alg(x[:, k], u[:, k], z[:, k])
+        for j in range(Dim_state):
+            cons_dynamics.append(x[j, k+1] - xkp1[j])
+        for j in range(2):
+            cons_dynamics.append(Fy2[j])
+
+    ## MPC inequality constraints ##
+    cons_ineq = []
+    for k in range(N):
+        cons_ineq.append(2 - x[0, k])  # U_xk <= 2 m/s
+        cons_ineq.append(u[0, k] * x[0, k] - param["Peng"]) # Fxk * U_xk <= Peng engine power limits
     
-        x_next = ca.vertcat(
-            xk[0] + dt * uk[0] * ca.cos(xk[2]),
-            xk[1] + dt * uk[0] * ca.sin(xk[2]),
-            xk[2] + dt * uk[1]
-        )
-        constraints.append(X[:,k+1] - x_next)
+    for k in range(N):
+        Fx,delta = u[0,k], u[1,k]
+        af,ar = get_slip_angle(x[0,k], x[1,k], x[2,k], delta, param)
+        Fxf, Fxr = chi_fr(Fx)
+        Fzf, Fzr = normal_load(Fx, param)
 
-    constraints = ca.vertcat(*constraints)
-    opt_vars = ca.vertcat(ca.reshape(X, -1, 1), ca.reshape(U, -1, 1))
-    params = ca.vertcat(X0, ca.reshape(Xref, -1, 1))
+        Fyf = tire_model_ctrl(af, Fzf, Fxf, param["C_alpha_f"], param["mu_f"] )
+        Fyr = tire_model_ctrl(ar, Fzr, Fxr, param["C_alpha_r"], param["mu_r"] )
 
-    nlp = {'x': opt_vars, 'f': cost, 'g': constraints, 'p': params}
+        # front tire limits
+        cons_ineq.append((Fyf**2 + Fxf**2) - (param["mu_f"]*Fzf)**2 - z[2, k]**2)
+        # rear tire limits
+        cons_ineq.append((Fyr**2 + Fxr**2) - (param["mu_r"]*Fzr)**2 - z[3, k]**2)
+
+    ###################### MPC cost start ######################
+    cost = 0
+
+    cost += 1500.0 * (target[1] - x[4, N])**2  # final y position error
+    cost += 10.0 * x[5, N]**2 # phi -> 0
+    # U_x should be high
+    cost -= 500.0 * (x[0, N])**2  # U_x -> inf
+    # x should reach target x position
+    cost += -1000.0 * (target[0] - x[3, N])**2
+
+
+    ## Stage costs (at k)
+    for k in range(N):
+        cost += 500.0 * (target[1] - x[4, k])**2  # y_k -> 0
+        cost += 15.0 * x[5, k]**2  # phi_k -> 0
+        cost -= 20.0 * (x[0, k])**2    # Ux_k -> inf
+        cost += 0.01 * u[0, k]**2  # F_xk
+        cost += 1.0 * u[1, k]**2   # gamma_k
+        cost += 100.0 * (target[0] - x[3, k])**2 # x_k -> target x
+    ## Excessive slip angle / friction
+    for k in range(N):
+        Fx = u[0, k]; delta = u[1, k]
+        af, ar = get_slip_angle(x[0, k], x[1, k], x[2, k], delta, param)
+        Fzf, Fzr = normal_load(Fx, param)
+        Fxf, Fxr = chi_fr(Fx)
+
+        xi = 0.85
+        F_offset = 2000   ## A slacked ReLU function using only sqrt()
+        Fyf_max_sq = (param["mu_f"] * Fzf)**2 - (0.999 * Fxf)**2
+        Fyf_max_sq = (ca.sqrt( Fyf_max_sq**2 + F_offset) + Fyf_max_sq) / 2
+        Fyf_max = ca.sqrt(Fyf_max_sq)
+
+        ## Modified front slide sliping angle
+        alpha_mod_f = ca.arctan(3 * Fyf_max / param["C_alpha_f"] * xi)
+
+        Fyr_max_sq = (param["mu_f"] * Fzf)**2 - (0.999 * Fxf)**2
+        Fyr_max_sq = (ca.sqrt( Fyr_max_sq**2 + F_offset) + Fyr_max_sq) / 2
+        Fyr_max = ca.sqrt(Fyr_max_sq)
+
+        ## Modified rear slide sliping angle
+        alpha_mod_r = ca.arctan(3 * Fyr_max / param["C_alpha_r"] * xi)
+
+        ## Limit friction penalty
+
+        W_alpha = 100.0
+        cost += W_alpha * ca.if_else(ca.fabs(af) >= alpha_mod_f, (ca.fabs(af) - alpha_mod_f)**2, 0.0)  
+        cost += W_alpha * ca.if_else(ca.fabs(ar) >= alpha_mod_r, (ca.fabs(ar) - alpha_mod_r)**2, 0.0)  
+        cost += 1000.0 * (z[2, k]**2 + z[3, k]**2)
+
+    # Initial condition as parameters
+    cons_init = [x[:, 0] - p]
+    ub_init_cons = np.zeros((Dim_state, 1))
+    lb_init_cons = np.zeros((Dim_state, 1))
+
+    state_ub = np.array([ 1e2,  1e2,  1e2,  1e8,  1e8,  1e8])
+    state_lb = np.array([-1e2, -1e2, -1e2, -1e8, -1e8, -1e8])
     
-    # Configure IPOPT solver options for better convergence
-    opts = {
-        'ipopt': {
-            'max_iter': 1000,
-            'tol': 1e-5,  # Tighter tolerance for better convergence
-            'constr_viol_tol': 1e-5,  # Tighter constraint violation tolerance
-            'acceptable_tol': 1e-4,  # Tighter acceptable tolerance
-            'acceptable_iter': 15,  # Acceptable iterations
-            'print_level': 0,  # 0 = no output, 5 = verbose
-            'mu_init': 1e-3,  # Initial barrier parameter
-            'warm_start_init_point': 'yes',  # Enable warm start
-            'warm_start_bound_push': 1e-6,
-            'warm_start_mult_bound_push': 1e-6,
-            'nlp_scaling_method': 'gradient-based',  # Better scaling
-            'linear_solver': 'mumps',  # Use mumps (more widely available)
-        }
-    }
+    ## Set the control limits for upper and lower bounds
+    ctrl_ub  = np.array([1e5, param["delta_max"]])          # (traction force, steering angle)
+    ctrl_lb  = np.array([-1e5, -param["delta_max"]])        # (-traction force, -steering angle)
     
-    solver = ca.nlpsol('solver', 'ipopt', nlp, opts)
-    
-    # Store previous solution for warm start
-    prev_sol = None
+    aux_ub   = np.array([ 1e5,  1e5,  1e5,  1e5])
+    aux_lb   = np.array([-1e5, -1e5, -1e5, -1e5])
 
-    def solve(x0, xref):
-        nonlocal prev_sol
-        
-        xref = np.asarray(xref).T  # (3, N+1)
-        
-        # Debug: Print reference values for first few calls
-        if prev_sol is None or len([x for x in [prev_sol] if x is not None]) == 1:
-            print(f"DEBUG: Reference passed to MPC - y[0]={xref[1, 0]:.3f}, y[-1]={xref[1, -1]:.3f}, "
-                  f"x0_y={x0[1]:.3f}")
-        
-        p = np.concatenate([x0, xref.flatten()])
+    lb_dynamics = np.zeros((len(cons_dynamics), 1))
+    ub_dynamics = np.zeros((len(cons_dynamics), 1))
 
-        # Check if we're very far from reference - if so, reset warm start
-        y_error = abs(x0[1] - xref[1, 0])
-        heading_error = abs(np.arctan2(np.sin(x0[2] - xref[2, 0]), np.cos(x0[2] - xref[2, 0])))
-        
-        # If error is too large, reset warm start to avoid getting stuck in local minimum
-        reset_warm_start = (y_error > 1.0) or (heading_error > np.pi/4)  # >1m or >45deg
-        
-        # Warm start: use previous solution if available, otherwise initialize intelligently
-        if prev_sol is not None and not reset_warm_start:
-            # Shift previous solution forward by one step for warm start
-            # This helps when the reference is similar from step to step
-            x0_guess = prev_sol.copy()
-            # Shift states forward (drop first state, add last reference point)
-            X_prev = prev_sol[:nx*(N+1)].reshape(N+1, nx)
-            X_shifted = np.vstack([X_prev[1:], xref[:, -1].reshape(1, -1)])
-            x0_guess[:nx*(N+1)] = X_shifted.flatten()
-            # Shift controls forward (drop first control, add zero)
-            U_prev = prev_sol[nx*(N+1):].reshape(N, nu)
-            U_shifted = np.vstack([U_prev[1:], np.zeros((1, nu))])
-            x0_guess[nx*(N+1):] = U_shifted.flatten()
-        else:
-            # Initialize with reference trajectory and estimated controls
-            X_init = xref.T.flatten()  # (3*(N+1),)
-            # Estimate initial controls from reference trajectory
-            U_init = np.zeros(N * nu)
-            for k in range(min(N, xref.shape[1]-1)):
-                # Estimate velocity from reference displacement
-                dx = xref[0, k+1] - xref[0, k]
-                dy = xref[1, k+1] - xref[1, k]
-                v_est = np.sqrt(dx**2 + dy**2) / dt
-                # Estimate angular velocity from heading change
-                dtheta = xref[2, k+1] - xref[2, k]
-                # Normalize angle difference
-                dtheta = np.arctan2(np.sin(dtheta), np.cos(dtheta))
-                omega_est = dtheta / dt
-                U_init[k*nu:(k+1)*nu] = [v_est, omega_est]
-            x0_guess = np.concatenate([X_init, U_init])
-        
-        try:
-            # Set reasonable bounds on control inputs
-            # Velocity: -5 to 30 m/s (allow reverse for correction)
-            # Angular velocity: -3 to 3 rad/s (allow sharper turns for correction)
-            lbx = [-ca.inf] * (nx * (N+1)) + [-5.0, -3.0] * N
-            ubx = [ca.inf] * (nx * (N+1)) + [30.0, 3.0] * N
-            
-            sol = solver(
-                lbx=lbx, 
-                ubx=ubx, 
-                lbg=0, 
-                ubg=0, 
-                p=p,
-                x0=x0_guess
-            )
-            
-            # Check solver status
-            status = solver.stats()['return_status']
-            if status not in ['Solve_Succeeded', 'Solved_To_Acceptable_Level']:
-                print(f"Warning: IPOPT status: {status}")
-            
-            # Print tracking error for debugging
-            w_opt = np.array(sol['x']).flatten()
-            X_opt = w_opt[:nx*(N+1)].reshape(N+1, nx)
-            y_error = X_opt[0, 1] - xref[1, 0]  # Current y error (signed)
-            y_ref_val = xref[1, 0]  # Reference y value at first horizon point
-            y_actual = X_opt[0, 1]  # Actual y value (should equal x0[1] due to constraint)
-            y_ref_end = xref[1, -1]  # Reference y value at end of horizon
-            y_opt_end = X_opt[-1, 1]  # Optimized y value at end of horizon
-            
-            # Check if reference and solution are in the same direction
-            heading_ref = xref[2, 0]
-            heading_opt = X_opt[0, 2]
-            heading_error = np.arctan2(np.sin(heading_opt - heading_ref), np.cos(heading_opt - heading_ref))
-            
-            # Print if error is significant or for first few steps
-            if abs(y_error) > 0.05:  # Print if error > 5cm
-                print(f"MPC Y-tracking: current={y_actual:.3f}, ref_start={y_ref_val:.3f}, "
-                      f"ref_end={y_ref_end:.3f}, error={y_error:.3f}, opt_end={y_opt_end:.3f}, "
-                      f"h_error={np.degrees(heading_error):.1f}°")
-            
-            w_opt = np.array(sol['x']).flatten()
-            
-            # Store solution for warm start
-            prev_sol = w_opt.copy()
+    lb_ineq = np.zeros((len(cons_ineq), 1)) - 1e9
+    ub_ineq = np.zeros((len(cons_ineq), 1))
 
-            # Correct slice: take first control from optimized U
-            U_opt = w_opt[nx*(N+1):].reshape(N, nu)
-            u0 = U_opt[0]   # <-- first control
+    ub_x = np.matlib.repmat(state_ub, N + 1, 1)
+    lb_x = np.matlib.repmat(state_lb, N + 1, 1)
+    ub_u = np.matlib.repmat(ctrl_ub, N, 1)
+    lb_u = np.matlib.repmat(ctrl_lb, N, 1)
+    ub_z = np.matlib.repmat(aux_ub, N, 1)
+    lb_z = np.matlib.repmat(aux_lb, N, 1)
 
-            return u0  # (2,) = [v, ω]
-        except Exception as e:
-            print(f"MPC solver error: {e}")
-            # Return zero control on failure
-            return np.zeros(2)
+    lb_var = np.concatenate((lb_u.reshape((Dim_ctrl * N, 1)), 
+                             lb_x.reshape((Dim_state * (N+1), 1)),
+                             lb_z.reshape((Dim_aux * N, 1))
+                             ))
 
-    return solve
+    ub_var = np.concatenate((ub_u.reshape((Dim_ctrl * N, 1)), 
+                             ub_x.reshape((Dim_state * (N+1), 1)),
+                             ub_z.reshape((Dim_aux * N, 1))
+                             ))
+
+    vars_NLP   = ca.vertcat(u.reshape((Dim_ctrl * N, 1)), x.reshape((Dim_state * (N+1), 1)), z.reshape((Dim_aux * N, 1)))
+    cons_NLP = cons_dynamics + cons_ineq + cons_init
+    cons_NLP = ca.vertcat(*cons_NLP)
+    lb_cons = np.concatenate((lb_dynamics, lb_ineq, lb_init_cons))
+    ub_cons = np.concatenate((ub_dynamics, ub_ineq, ub_init_cons))
+
+    prob = {"x": vars_NLP, "p":p, "f": cost, "g":cons_NLP}
+
+    return prob, N, vars_NLP.shape[0], cons_NLP.shape[0], p.shape[0], lb_var, ub_var, lb_cons, ub_cons                                           
